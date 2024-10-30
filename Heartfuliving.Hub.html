@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HearfulLiving.Hub</title>
+    <link rel="icon" type="image" href="mentalogo.png">
+    <style>
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to bottom, #106dac 23%, #c45f91 95%);
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 15px;
+}
+
+.navbar .logo {
+    width: 50px;
+    height: 50px;
+   margin-right: auto;
+    margin-top: 10px; 
+    border-radius: 50%;
+
+}
+
+.logo-text {
+    margin-right: 270px;
+    color: #fff;
+   font-style: italic;
+ 
+
+}
+
+.navbar .links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  
+}
+
+.navbar .links a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 0;
+  transition: 0.2s ease;
+  margin-right: 35px;
+}
+
+.navbar .links a:hover {
+  color: #72b7f7;
+}
+
+.navbar .buttons a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  padding: 15px 0;
+  transition: 0.2s ease;
+  margin-right: 30px;
+ 
+}
+
+.navbar .buttons a:not(:last-child) {
+  margin-right: 30px;
+}
+
+.navbar .buttons .signin:hover {
+  color: #72b7f7;
+}
+
+.navbar .buttons .signup {
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  border-radius: 0.375rem;
+  text-align: center;
+  transition: 0.2s ease;
+  background-color: #4495ff;
+  
+}
+
+.navbar .buttons .signup:hover {
+  background-color:#387ab8;
+  color: #fff;
+}
+
+.homepage-section {  
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 95vh;
+  padding: 0 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.homepage-section .homepage{
+  max-width: 100%;
+  color: #fff;
+  
+}
+
+.homepage-section .homepage h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.homepage-section .homepage p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #c9c7c7;
+}
+
+.homepage-section .img img {
+  width: 450px;
+  height: 460px;
+  margin-top: 60px;
+  padding-bottom: 20px;
+
+}
+
+.homepage-section .buttons {
+  margin-top: 40px;
+}
+
+.homepage-section .buttons a {
+  text-decoration: none;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  transition: 0.2s ease;
+  display: inline-block;
+}
+
+.homepage-section .buttons a:not(:last-child) {
+  margin-right: 15px;
+}
+
+.homepage-section .buttons .get-started {
+  background-color: #4495ff;
+}
+
+.homepage-section .buttons .join {
+  border: 1px solid #fff;
+  border-radius: 0.375rem;
+}
+
+.homepage-section .buttons a:hover {
+  background-color: #387ab8;
+}
+
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <img src="mentalogo.png" class="logo"><span class="logo-text">Heartfuliving.Hub</span>
+        <ul class="links">
+          <li><a href="#">Home</a></li>
+          <li><a href="about us.html">About Us</a></li>
+          <li><a href="forums.html">Forums</a></li>
+          <li><a href="testimonial.html">Testimony</a></li>
+          <li><a href="contact us.html">Contact Us</a></li>
+        </ul>
+        <div class="buttons">
+          <a href="log in.html" class="signin">Log in</a>
+          <a href="sign up form.html" class="signup">Sign up</a>
+        </div>
+      </nav>
+    </header>
+    <section class="homepage-section">
+      <div class="homepage">
+        <h2> WELCOME TO HEARTFULLIVINGHUB</h2>
+        <p>
+            Your go-to space for support and information in life's challenges, including your mental health. 
+            We're here to make your journey a bit easier and brighter. 
+            Join us in creating a community where understanding and valuable mental health resources come together.
+             Because at HeartfulLivingHub, no one walks alone.
+        </p>
+        <div class="buttons">
+          <a href="frameset.html" class="get-started">Get started</a>
+          <a href="join.html" class="join">Join us</a>
+        </div>
+      </div>
+      <div class="img">
+        <img src="living.png" alt=" image" />
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forums</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
+
+        body {
+            font-family: "Poppins", sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url(bg.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        header {
+            color: #fff;
+            text-shadow: 1px 1px 1px rgb(8, 8, 8);
+            text-align: center;
+            font-size: 25px;
+        
+        }
+        
+
+        main {
+            max-width: 900px;
+            margin: 1px auto;
+            padding:30px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+          
+        }
+
+        .forum-post {
+            border-bottom: 1px solid #ddd;
+            padding: 15px 0;
+        }
+
+        .user-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .user-info img {
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .comments {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .comment {
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>HeartfulLivingHub Forums</h1>
+    </header>
+    
+    <main>
+        <p>
+            The Mental Forum at HeartfulLivingHub is your supportive online community for open discussions on stress, heartbreak, depression, and anxiety. Join us for a judgment-free space where shared experiences and valuable insights create a supportive network for emotional well-being. Connect, share, and find understanding on your journey.</p>
+    
+        <div class="forum-post">
+            <div class="user-info">
+                <img src="girl.png"  width="50" height="50">
+                <h2>Ana Dela Cruz</h2>
+            </div>
+            <p>Hey everyone, I've been going through a tough time lately, feeling overwhelmed with stress and anxiety. 
+                Any advice on how to cope with it or maybe share your own experiences?</p>
+            <ul class="comments">
+                <li class="comment">
+                    <div class="user-info">
+                        <img src="boy.png" width="30" height="30">
+                        <p> John Ramirez:</p>
+                    </div>
+                    I'm really sorry to hear that you're going through a tough time. When I faced a similar situation, practicing mindfulness exercises like deep breathing and meditation helped me a lot. It's about finding what works best for you.
+                     Don't hesitate to reach out to friends or family for support too.</div>
+                    <ul class="comments">
+                        <li class="comment">
+                            <div class="user-info">
+                                <img src="girl.png" width="30" height="30">
+                                <p>Samantha Smith:</p>
+                            </div>
+                            I can relate to what you're going through. It might be helpful to consider talking to a mental health professional. They can provide personalized strategies and support. Also, don't underestimate the power of self-care routines. 
+                            Taking small steps every day, like going for a walk or spending time doing something you enjoy, can make a big difference. </div>
+                            <form>
+                                <label for="comment">Add your comment:</label>
+                                <textarea id="comment" name="comment" rows="4" required></textarea>
+                                <button type="submit">Post Comment</button>
+                            </form>        
+
+        <div class="forum-post">
+            <div class="user-info">
+                <img src="boy.png" width="50" height="50">
+                <h2>James Mendoza</h2>
+            </div>
+            <p>Hi everyone, I've been feeling really down lately and struggling to overcome heartbreak. 
+                Any tips on how to navigate through this difficult time?</p>
+            <ul class="comments">
+                <ul class="comments">
+                    <li class="comment">
+                        <div class="user-info">
+                            <img src="girl.png"  width="30" height="30">
+                            <p>Maxine Villafuerte:</p>
+                        </div>
+                        I'm so sorry to hear that you're going through heartbreak. It's never easy. One thing that helped me was allowing myself to feel the emotions without judgment. It's okay to grieve and take the time you need. 
+                        Surround yourself with supportive friends and consider engaging in activities you enjoy to help take your mind off things. </div>
+                        <ul class="comments">
+                            <li class="comment">
+                                <div class="user-info">
+                                    <img src="boy.png" idth="30" height="30">
+                                    <p>Deib Lhor Miranda:</p>
+                                </div>
+                                I understand what you're going through. Breakups are tough, and healing takes time. Journaling about your feelings can be therapeutic. Also, try to focus on personal growth during this period. Pick up a new hobby or rediscover old passions.
+                                 Remember, it's okay to seek professional support if you find it challenging to cope on your own.</div>
+            </ul>
+        </div>
+
+        <form>
+            <label for="comment">Add your comment:</label>
+            <textarea id="comment" name="comment" rows="4" required></textarea>
+            <button type="submit">Post Comment</button>
+        </form>
+        <hr>
+
+        <h2>Post Your Question</h2>
+        <form>
+            <label for="username">Your Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br>
+            <label for="question">Your Question:</label>
+            <textarea id="question" name="question" rows="4" required></textarea>
+            <button type="submit">Post Question</button>
+        </form>
+    </main>
+
+</body>
+</html>
